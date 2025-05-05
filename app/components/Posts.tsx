@@ -22,8 +22,7 @@ const Posts = ({ posts }: { posts: Post[] }) => {
         ))
       ) : (
         <p>No posts available</p>
-      )}
-      \{" "}
+      )}{" "}
     </div>
   );
 };
