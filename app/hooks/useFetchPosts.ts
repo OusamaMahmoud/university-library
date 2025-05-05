@@ -14,7 +14,7 @@ const useFetchPosts = () => {
         console.log("Debug =>", response.data);
         setPosts(response.data);
       } catch (error) {
-        // setError(error.message);
+        setError(error.message);
         console.log(error);
       } finally {
         setLoading(false);
